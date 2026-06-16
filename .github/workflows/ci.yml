@@ -16,6 +16,8 @@ jobs:
         with:
           python-version: "3.12"
 
-      - run: python app.py
+      - run: pip install -r requirements.txt
 
-      - run: docker build -t cicd-demo .
+      - run: python -m py_compile app.py
+
+      - run: docker build -t cicd-project .
