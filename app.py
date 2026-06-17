@@ -71,7 +71,7 @@ def home():
 
     <div class="container">
 
-        <h1>CI/CD Automation Dashboard</h1>
+        <h1>CI/CD Automation Dashboard 2</h1>
 
         <p class="success">
             Application Successfully Deployed
@@ -110,6 +110,5 @@ def home():
 </body>
 </html>
 """
-print("Application is running on http://localhost:5000")
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
